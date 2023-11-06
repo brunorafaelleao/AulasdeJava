@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercício5 {
+public class Exercicio5 {
     public static void main(String[] args) {
      System.out.println("*****Valor a pagar pelo produto*****\n");
      System.out.print("*****Produtos disponíveis******\n-----------------------------------\nCODIGO    ESPECIFICAÇÃO    PREÇO\n1        Cachorro quente   R$ 4,00\n2        X-Salada          R$ 4,50\n3        X-Bacon           R$ 5,00\n4        Torrada Simples   R$ 2,00\n5        Refrigerante      R$ 1,50\n-----------------------------------\n\n");

@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercício6 {
+public class Exercicio6 {
     public static void main(String[] args) {
         System.out.println("*****Intervalo de números*****\n");
         System.out.print("Intervalos acessíveis:\n");
