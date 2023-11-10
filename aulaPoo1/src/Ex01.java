@@ -16,6 +16,10 @@ public class Ex01 {
         System.out.printf("\nA largura do retângulo é: %.1f\n",x.largura);
 
         System.out.printf("\nA área do retângulo é: %.2f\n",x.areaRet());
+        System.out.printf("\nO perímetro do retângulo é: %.2f\n",x.perimeRet());
+        System.out.printf("\nA diagonal do retângulo é: %.2f\n",x.diagoRet());
+    
+
 
         
 
