@@ -20,11 +20,7 @@ public class Ex01 {
         System.out.printf("\nA diagonal do retângulo é: %.2f\n",x.diagoRet());
     
 
-
-        
-
-
-
+       
         ret.close();
     }
 }
