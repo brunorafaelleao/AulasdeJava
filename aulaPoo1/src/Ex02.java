@@ -5,18 +5,18 @@ import entidade.Funcionario;
 public class Ex02 {
     public static void main(String[] args) {
         System.out.println("****Calcular o salário de um funcionário****\n\n");
-        Scanner func = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in, "UTF-8");
         Funcionario x = new Funcionario();
         System.out.print("Insira o nome do funcionário: ");
-        x.nomefunc = func.nextLine();
+        x.nomefunc = sc.nextLine();
         System.out.print("\n\nInsira o salário bruto do funcionário: ");
-        x.salarioBruto = func.nextDouble();
+        x.salarioBruto = sc.nextDouble();
         System.out.print("\n\nInsira o imposto sobre salário bruto do funcionário: ");
-        x.imposto = func.nextDouble();
+        x.imposto = sc.nextDouble();
         System.out.printf("\n\nO funcionário se chama %s, recebe um salário bruto de R$ %.2f, e tem um valor de imposto sobre seu salário de R$ %.2f.\n\n",x.nomefunc, x.salarioBruto, x.imposto);
               
 
-        func.close();
+        sc.close();
 
     }
     
