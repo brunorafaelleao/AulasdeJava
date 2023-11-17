@@ -1,0 +1,26 @@
+Classe Localidade
+
+Atributos:
+- nomeLocalidade: String
+- municipio: String
+- latitude: Double
+- longitude: Double
+
+Métodos:
++ inserir novos dados: void
++ consultar localidade
+
+
+Classe: Família
+
+Atributos:
+- responsavel: String
+- endereco: String
+- numeroImovel: int
+- numeroHabitantes: int
+- numeroMasculino: int
+- numeroFeminino: int
+
+Métodos:
++ inserir novos dados: void
++ consultar família
