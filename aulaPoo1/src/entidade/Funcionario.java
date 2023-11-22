@@ -9,7 +9,7 @@ public class Funcionario {
         return salarioBruto - imposto;
     }
     public double novosalario(Double porcentagem){
-        return salarioBruto += salarioBruto*porcentagem / 100.0;
+        return (salarioBruto + (salarioBruto*porcentagem / 100.0)) - imposto;
 
     }
 
